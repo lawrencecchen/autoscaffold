@@ -8,6 +8,7 @@ specifiers:
   inquirer: ^9.1.4
   ora: ^6.1.2
   prompts: ^2.4.2
+  tiny-invariant: ^1.3.1
   tsx: ^3.11.0
   turbo: ^1.6.1
   typescript: ^4.8.4
@@ -18,6 +19,7 @@ dependencies:
   inquirer: 9.1.4
   ora: 6.1.2
   prompts: 2.4.2
+  tiny-invariant: 1.3.1
   zod: 3.19.1
 
 devDependencies:
@@ -617,6 +619,10 @@ packages:
 
   /through/2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
+    dev: false
+
+  /tiny-invariant/1.3.1:
+    resolution: {integrity: sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==}
     dev: false
 
   /tmp/0.0.33:
