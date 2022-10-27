@@ -1,10 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/degit': ^2.8.3
   '@types/inquirer': ^9.0.2
   '@types/prompts': ^2.4.1
   degit: ^2.8.4
   inquirer: ^9.1.4
+  ora: ^6.1.2
   prompts: ^2.4.2
   tsx: ^3.11.0
   turbo: ^1.6.1
@@ -14,10 +16,12 @@ specifiers:
 dependencies:
   degit: 2.8.4
   inquirer: 9.1.4
+  ora: 6.1.2
   prompts: 2.4.2
   zod: 3.19.1
 
 devDependencies:
+  '@types/degit': 2.8.3
   '@types/inquirer': 9.0.2
   '@types/prompts': 2.4.1
   tsx: 3.11.0
@@ -64,6 +68,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@types/degit/2.8.3:
+    resolution: {integrity: sha512-CL7y71j2zaDmtPLD5Xq5S1Gv2dFoHl0/GBZm6s39Mj/ls28L3NzAOqf7H4H0/2TNVMgMjMVf9CAFYSjmXhi3bw==}
+    dev: true
 
   /@types/inquirer/9.0.2:
     resolution: {integrity: sha512-MQc3adiIh/rDxLkjnvL03rSvuHg+/dKif4dn/MRsnE+oU1bAdyuDbW0w+ewR1M/M/u/Z0YAbw7NZYCpgQ5SW8A==}
